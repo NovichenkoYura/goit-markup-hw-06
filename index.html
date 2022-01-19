@@ -413,6 +413,63 @@
                 </svg>
             </div>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="data-form" action="#">
+                <div class="form-field">
+                    <label class="input-text" for="user-name">Имя</label>
+                    <input 
+                    type="text" 
+                    class="form-input" 
+                    name="user-name" 
+                    placeholder="" 
+                    required minlength="2"
+                    id="user-name" 
+                    />
+                </div>
+                <div class="form-field">
+                    <label class="input-text" for="user-tel">Телефон</label>
+                    <input 
+                    type="tel" 
+                    class="form-input" 
+                    name="user-tel" 
+                    placeholder="" 
+                    required title="+380 (96) 111-11-11" 
+                    id="user-tel" 
+                    value="" />
+                </div>
+
+                <div class="form-field">
+                    <label class="input-text" for="user-email">Почта</label>
+                    <input 
+                    type="email" 
+                    class="form-input" 
+                    name="user-email" 
+                    placeholder="" 
+                    id="user-email" />
+                </div>
+
+                <div class="form-field">
+                    <label class="input-text" for="user-text">Комментарий</label>
+                    <textarea 
+                    name="user-text" 
+                    id="user-text" 
+                    class="form-text" 
+                    placeholder="Введите текст">
+                </textarea>
+                </div>
+            
+                <fieldset class="field">
+                    <label>male
+                        <input type="radio" value="male" name="gender" />
+                    </label>
+                    <label>female
+                        <input type="radio" value="female" name="gender" />
+                    </label>
+                    <label>other
+                        <input type="radio" value="other" name="gender" />
+                    </label>
+                </fieldset>
+                <button type="submit" class="modal-button">Отправить</button>
+            </form>
         </div>
     </div>
 
