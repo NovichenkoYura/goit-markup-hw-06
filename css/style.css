@@ -976,11 +976,6 @@ img {
   bottom: 0; */
 }
 
-.field {
-  border: 1px solid green;
-  border-radius: 5px;
-}
-
 .modal-button {
   font-family: inherit;
   color: var(--white);
@@ -1000,6 +995,11 @@ img {
   padding: 10px 55px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.field {
+  border: 1px solid green;
+  border-radius: 5px;
 }
 /* 
 .data-form {
