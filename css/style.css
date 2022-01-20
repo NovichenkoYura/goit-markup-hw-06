@@ -966,6 +966,7 @@ img {
   padding: 12px 16px;
   resize: none;
   color: rgba(117, 117, 117, 0.5);
+  margin-bottom: 20px;
 }
 
 .form-text::placeholder {
@@ -997,10 +998,16 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.field {
+/* .field {
   border: 1px solid green;
   border-radius: 5px;
+} */
+.agreement-checkbox-text {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 /* 
 .data-form {
   display: flex;
