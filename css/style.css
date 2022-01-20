@@ -718,7 +718,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
-  
 }
 
 .footer-input-text {
@@ -732,6 +731,7 @@ img {
   box-shadow: 0px, 4px, 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding-left: 16px;
+  margin-right: 12px;
 }
 
 .footer-input-title {
@@ -743,13 +743,39 @@ img {
 }
 
 .footer-form-input::placeholder {
-  Font-family: Roboto;
-  Font-style: Regular;
-  Font-size: 16px;
-  Line-height: 1.25;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
   /* position: absolute;
   bottom: 0; */
+}
+
+.footer-input-wrap {
+  display: flex;
+}
+
+.footer-field-button {
+  font-family: inherit;
+  color: var(--white);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px, 4px, 4px rgba(0, 0, 0, 0.15);
+  border: 1px transparent;
+  padding: 10px 55px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* Портфолио */
 
