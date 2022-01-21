@@ -780,10 +780,11 @@ img {
 }
 
 .footer-input-icon {
-  position: absolute;
+  margin-left: 10px;
+  /* position: absolute;
   right: 28px;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 
   /* margin-left: 10px; */
 }
@@ -1170,7 +1171,7 @@ img {
 
 .policy-link {
   color: var(--accent-color);
-  margin-left: 4px;
+  margin-left: 5px;
 }
 
 /* 
