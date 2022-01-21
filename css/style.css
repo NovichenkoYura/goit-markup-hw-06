@@ -754,6 +754,7 @@ img {
 
 .footer-input-wrap {
   display: flex;
+  justify-content: flex-start;
 }
 
 .footer-field-button {
@@ -989,8 +990,6 @@ img {
   margin-bottom: 12px;
 }
 
-/* скопировано */
-
 .form-field {
   margin-bottom: 10px;
 }
@@ -999,8 +998,12 @@ img {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 15px;
-  /* margin-bottom: 10px; */
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.form-input:focus {
+  border-color: var(--accent-color);
 }
 
 .form-input::placeholder {
@@ -1019,6 +1022,17 @@ img {
   color: var(--secondary-text-color);
   display: block;
   margin-bottom: 4px;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .form-text {
