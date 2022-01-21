@@ -755,6 +755,7 @@ img {
 .footer-input-wrap {
   display: flex;
   justify-content: flex-start;
+  position: relative;
 }
 
 .footer-field-button {
@@ -776,6 +777,14 @@ img {
   padding: 10px 29px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input-icon {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  /* margin-left: 10px; */
 }
 
 /* Портфолио */
