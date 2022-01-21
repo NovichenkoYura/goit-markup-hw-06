@@ -1014,6 +1014,17 @@ img {
 .form-field {
   margin-bottom: 10px;
 }
+
+/* .form-field.form-field-comment {
+  margin-bottom: 20px;
+} */
+
+.form-field-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 .form-input {
   width: 100%;
   height: 40px;
@@ -1111,6 +1122,8 @@ img {
   padding: 10px 55px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .field {
@@ -1140,6 +1153,24 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.policy-link {
+  color: var(--accent-color);
+  margin-left: 4px;
 }
 
 /* 
