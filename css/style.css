@@ -732,6 +732,9 @@ img {
   border-radius: 4px;
   padding-left: 16px;
   margin-right: 12px;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .footer-input-title {
@@ -988,13 +991,21 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
+  cursor: pointer;
+}
+
+.modal-icon {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .modal-close {
   color: var(--secondary-text-color);
 }
 
-.modal-close:focus + .modal-icon {
+.modal-close:focus .modal-icon,
+.modal-close:hover .modal-icon {
   fill: var(--accent-color);
 }
 
@@ -1137,6 +1148,7 @@ img {
   line-height: 1.71;
   color: var(--secondary-text-color);
   display: flex;
+  align-items: baseline;
 }
 
 .check-text::before {
@@ -1171,7 +1183,7 @@ img {
 
 .policy-link {
   color: var(--accent-color);
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 /* 
